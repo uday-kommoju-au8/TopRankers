@@ -1,4 +1,7 @@
 .App {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   text-align: center;
 }
 
@@ -35,4 +38,59 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-table-size {
+  position: relative;
+  width: 95vw;
+  height: 250px;
+  margin-bottom: 100px;
+}
+
+.button-box {
+  display: flex;
+  width: 700px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid;
+  background-color: transparent;
+}
+
+.button:hover {
+  color: lightblue;
+}
+
+.warning-style {
+  background-color: yellow;
+}
+
+.delete-button {
+  padding-top: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.delete-button-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-style {
+  border: none;
+  border-width: 0;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.title {
+  display: flex;
+  align-self: start;
 }
